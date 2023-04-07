@@ -1,0 +1,81 @@
+/* #ef4136  #50d2cb  #a4d7d0 #7ec245 #ebf9f0 */
+@import url("https://use.typekit.net/hxu0zqp.css");
+@import "../public/assets/fonts/Montserrat/fonts.scss";
+@import "../public/assets/fonts/MontserratAlternates/fonts.scss";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+#__next,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+
+  @apply bg-black ;
+  color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: montserrat, sans-serif,
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+@apply text-turquoise-500;
+font-family: montserrat-alternates, sans-serif,
+}
+a {
+  text-decoration: none !important;
+  @apply text-purple-heart-600 
+}
+/* Base styles */
+body {
+  @apply text-base font-montserrat text-gray-100;
+}
+
+h1 {
+  @apply text-4xl font-semibold text-turquoise-500;
+}
+
+h2 {
+  @apply text-3xl font-semibold text-turquoise-500;
+}
+
+h3 {
+  @apply text-2xl font-semibold text-turquoise-500;
+}
+
+h4 {
+  @apply text-xl font-semibold text-turquoise-500;
+}
+
+h5 {
+  @apply text-lg font-semibold text-turquoise-500;
+}
+
+h6 {
+  @apply text-base font-semibold text-turquoise-500;
+}
+
+p {
+  @apply text-base text-gray-100 leading-6;
+}
+
+a {
+  @apply text-base text-purple-heart-500 no-underline;
+}
+ul {
+  @apply list-disc list-inside my-4;
+}
+
+ol {
+  @apply list-decimal list-inside my-4;
+}
+
+li {
+  @apply text-lg;
+}
