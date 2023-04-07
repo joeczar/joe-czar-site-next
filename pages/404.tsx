@@ -11,7 +11,7 @@ const NotFoundPage: React.FC<NotFoundPageProps> = ({ title,  location }) => {
     <Layout location={location} title={title}>
       <SEO title={title} description='404: Not Found'/>
       <h1>Not Found</h1>
-      <p>You just hit a route that doesn't exist... the sadness.</p>
+      <p>You just hit a route that doesn&apos;`t exist... the sadness.</p>
     </Layout>
   );
 };
